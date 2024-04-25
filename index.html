@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="assets/js/app.js" defer></script>
+    <title>Pollen App</title>
+
+
+</head>
+<body>
+    <header id="header">
+
+        <!-- search location bar -->
+        <div class="search-location"></div>
+        <label for="search"></label>
+        <input type="text" id="search" placeholder="search location">
+
+        <section id="location"></section>
+    </header>
+
+    <main>
+
+        <section id="pollenData"></section>
+        <section id="hourlyData"></section>
+
+        <div id="pollenSettings"></div>
+    </main>
+
+    <footer>
+        <span id="iconSettings">
+            <a href="#" onclick="settingsFunction()"></a>Settings
+        </span>
+    </footer>
+
+
+    <!-- firstly we are making a sketch for us in html but we're using it to build same in JS and instead we're using id=location so we don't need this anymore -->
+    <!-- <h2>Pollen</h2>
+    <ul>
+        <li>Alder 0</li>
+        <li>Birch 0</li>
+        <li>Grass 0</li>
+        <li>Mugwort 0</li>
+        <li>Olive 0</li>
+        <li>Ragweed 0</li>
+    </ul> -->
+
+
+
+</body>
+</html>
